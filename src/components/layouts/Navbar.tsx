@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { Search, ShoppingCart, Menu, X } from "lucide-react";
+import LoginModal from "../features/auth/LoginModal";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -52,12 +53,9 @@ const Navbar = () => {
             <ShoppingCart className="w-5 h-5" />
           </Button>
 
-          <Button
-            variant="outline"
-            className="hidden md:flex px-8 rounded-md border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-          >
-            Sign In
-          </Button>
+          <div className="md:block hidden">
+            <LoginModal />
+          </div>
 
           <Button
             variant="ghost"
@@ -113,13 +111,7 @@ const Navbar = () => {
             Contact
           </Link>
 
-          <Button
-            variant="outline"
-            className="w-full mt-2 rounded-md border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-            onClick={toggleMenu}
-          >
-            Sign In
-          </Button>
+          <LoginModal />
         </div>
       )}
     </nav>
