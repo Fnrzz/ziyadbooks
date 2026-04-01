@@ -67,7 +67,7 @@ const AllProducts = () => {
         </div>
       </div>
       <div className="w-full flex flex-col md:flex-row gap-10">
-        <div className="w-full md:w-2/6 flex flex-col gap-4 p-4">
+        <div className="hidden md:flex w-full md:w-2/6  flex-col gap-4 p-4">
           <Link href="/" className="flex items-center gap-2 hover:text-primary">
             Novel dan Satra
           </Link>
@@ -120,7 +120,7 @@ const AllProducts = () => {
               Belum ada buku saat ini.
             </p>
           )}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
