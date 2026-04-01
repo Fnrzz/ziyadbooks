@@ -4,15 +4,6 @@ import {
   InputGroupAddon,
   InputGroupInput,
 } from "@/components/ui/input-group";
-import {
-  Pagination,
-  PaginationContent,
-  PaginationEllipsis,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination";
 import { getAllProducts } from "@/services/products/getAllProducts";
 import { Product } from "@/types/ProductTypes";
 import { Search, SlidersHorizontal } from "lucide-react";
