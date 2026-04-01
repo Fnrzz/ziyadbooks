@@ -5,7 +5,7 @@ import Link from "next/link";
 const ProductCard = ({ product }: { product: Product }) => {
   return (
     <Link
-      href={`/product/${product.slug}`}
+      href={`/${product.slug}`}
       key={product.id}
       className="flex flex-col group p-4 transition-shadow bg-white"
     >
