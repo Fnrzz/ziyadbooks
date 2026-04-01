@@ -1,6 +1,7 @@
 import AllProducts from "@/components/features/home/AllProducts";
 import PopularBooks from "@/components/features/home/PopularBooks";
 import PreorderBooks from "@/components/features/home/PreorderBooks";
+import Testimonials from "@/components/features/home/Testimonials";
 import { Button } from "@/components/ui/button";
 import { BadgeCheck, CreditCard, RotateCcw, Van } from "lucide-react";
 import Image from "next/image";
@@ -74,6 +75,7 @@ export default function Home() {
       <PopularBooks />
       <PreorderBooks />
       <AllProducts />
+      <Testimonials />
     </main>
   );
 }
