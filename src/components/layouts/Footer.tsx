@@ -66,44 +66,44 @@ const Footer = () => {
           <Image
             src="/assets/payments/bca.png"
             alt="BCA"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/payments/bni.webp"
             alt="BNI"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/payments/bri.webp"
             alt="BRI"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/payments/mandiri.png"
             alt="Mandiri"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/payments/cimb.png"
             alt="CIMB"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/payments/kredivo.png"
             alt="Kredivo"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
         </div>
         <h5 className="text-md lg:text-xl font-bold decoration-primary underline underline-offset-10 mt-10 mb-4">
@@ -113,30 +113,30 @@ const Footer = () => {
           <Image
             src="/assets/delivery/jnt.png"
             alt="jnt"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/delivery/spx.png"
             alt="spx"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/delivery/jne.png"
             alt="jne"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
           <Image
             src="/assets/delivery/gosend.png"
             alt="gosend"
-            width={80}
-            height={80}
-            className="w-full max-w-[80px] h-auto object-contain"
+            width={100}
+            height={100}
+            className="w-20 h-auto object-contain"
           />
         </div>
       </div>
