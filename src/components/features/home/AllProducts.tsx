@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import SkeletonProductCard from "./SkeletonProductCard";
 import CustomPagination from "@/components/ui/custom-pagination";
+import Link from "next/link";
 
 const AllProducts = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -66,7 +67,41 @@ const AllProducts = () => {
         </div>
       </div>
       <div className="w-full flex flex-col md:flex-row gap-10">
-        <div className="w-full md:w-2/6"></div>
+        <div className="w-full md:w-2/6 flex flex-col gap-4 p-4">
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Novel dan Satra
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Buku Anak
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Pengembangan Diri
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Pendidikan dan Refrensi
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Komputer & Teknologi
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Psikologi
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Seni & Desain
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Medis
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Spiritualitas
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Travel
+          </Link>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary">
+            Kamus
+          </Link>
+        </div>
         <div className="w-full md:w-4/6">
           {loading && (
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
