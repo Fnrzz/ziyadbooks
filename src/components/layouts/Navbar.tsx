@@ -21,7 +21,7 @@ const Navbar = () => {
           <Image
             src="/assets/logo.svg"
             alt="logo"
-            width={150}
+            width={200}
             height={40}
             className="w-[120px] md:w-[150px] h-auto"
           />

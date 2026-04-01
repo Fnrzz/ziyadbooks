@@ -34,6 +34,7 @@ export default function Home() {
             alt="study illustration"
             width={500}
             height={500}
+            loading="eager"
             className="w-full max-w-[450px] h-auto object-contain md:-mt-20 z-10"
           />
         </div>
